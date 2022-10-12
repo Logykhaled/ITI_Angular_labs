@@ -1,0 +1,33 @@
+label{
+    font-size: large;
+    font-weight: bold;
+    color: blueviolet;
+   
+}
+input{
+    width: 40%;
+    border-radius: 20px;
+}
+input[type=button]{
+    width: 20%;
+    background-color: rgb(169, 32, 211);
+    text-align: center;
+    border-color: rgb(169, 32, 211) ;
+ 
+}
+input[value="ADD"]{
+    margin: auto;
+    color: rgb(223, 224, 226);
+    font-size: medium;
+
+   
+}
+input[value="ADD"]:hover{
+  background-color:rgb(171, 137, 206) ;
+   
+}
+input:hover{
+    background-color: whitesmoke;
+    border-color:rgb(171, 137, 206) ;
+
+}

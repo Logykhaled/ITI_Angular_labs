@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lab3';
+  DataFromReg : {name:string, age:number}[] = [];
+
+
+  GetData(data:any){
+    
+    this.DataFromReg.push(data) ;
+    console.log( this.DataFromReg);
+  }
+
 }

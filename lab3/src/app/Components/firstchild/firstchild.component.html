@@ -1,0 +1,30 @@
+<!-- name input -->
+<div class="form-outline mb-3">
+    <label class="form-label" for="form3Example4">Name</label>
+     <input  class="inputstyle"type="text" id="form3Example4" class="form-control form-control-lg"
+        placeholder="Enter Name"  [(ngModel)]="username" />
+        
+    </div>
+    <div style="color: rgb(255, 0, 76);" *ngIf="username.length < 3 && username !=''">
+        Name Length must be &gt; 3
+      </div>
+
+
+       <!-- age input -->
+       <div class="form-outline mb-3">
+        <label class="form-label" for="form3Example4">age</label>
+         <input class="inputstyle" type="number" id="form3Example4" class="form-control form-control-lg"
+            placeholder="Enter Age"  [(ngModel)]="userage" name="userage"/>
+        </div>
+        <div style="color: rgb(255, 0, 76);" *ngIf="userage < 20 || userage > 50">
+            Age must be between 20 & 50
+          </div>
+       
+
+        
+        <div class="text-center text-lg-start mt-4 pt-2">
+            <input type="button" value="ADD" class="btn btn-primary btn-lg"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;" (click)="ADD()" />
+        
+          </div>
+          

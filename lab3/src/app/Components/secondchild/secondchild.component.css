@@ -1,0 +1,24 @@
+table{
+   
+    width: 50%;
+    margin: 30px auto;
+    border: white;
+    
+}
+th ,tr,td{
+    color: rgb(58, 35, 82);
+    background-color: rgb(207, 200, 214);
+    border-radius: 20px;
+}
+.head{
+    margin: 30px auto;
+    width: 50%;
+
+}
+.head h1{
+    text-align: center;
+    font-style: italic;
+    color: rgb(58, 35, 82);
+    background-color: rgb(207, 200, 214);
+    border-radius: 30px;
+}

@@ -1,0 +1,19 @@
+<div class="head">
+<h1>User Data</h1>
+</div>
+<table class="table table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+    
+      
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of DataFromParent">
+            <td>{{item.name}}</td>
+            <td>{{item.age}}</td>
+        </tr>
+    </tbody>
+</table>
